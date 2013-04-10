@@ -42,6 +42,6 @@ Options
 
 Options available:
 
---with-alembicattrib                  Enable the plugin
---alembic-ini=path/to/alembic.ini     Assumed to be ``alembic.ini`` in the current dir by default
---alembic-echo={True,False}           Turn sqlalchemy engine echo on or off
+* ``--with-alembicattrib``: Enable the plugin
+* ``--alembic-ini=path/to/alembic.ini``: Assumed to be ``alembic.ini`` in the current dir by default
+* ``--alembic-echo={True,False}``: Turn sqlalchemy engine echo on or off
