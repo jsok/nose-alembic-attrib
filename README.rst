@@ -9,6 +9,13 @@ Requirements
 * alembic
 * sqlalchemy
 
+Install
+-------
+
+Install with pip::
+
+    pip install nose-alembic-attrib
+
 Quickstart
 ----------
 
