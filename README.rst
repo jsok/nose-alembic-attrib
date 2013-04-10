@@ -23,11 +23,10 @@ Simply import the decorator and use as such::
     @alembic_attr(minimum_revision="5aa2dfb6e6a8")
     def test_my_alembic_test(self):
         ...
-  
-Assuming your alembic revision history looks like this::
 
-    $ alembic history
-    
+Assuming your alembic revision history looks like this::
+    $> alembic history
+
     5aa2dfb6e6a8 -> 3830063c1b00 (head), my head revision
     4b9a79b051c6 -> 5aa2dfb6e6a8, my second revision
     None -> 4b9a79b051c6, my first revision
