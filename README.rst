@@ -25,6 +25,7 @@ Simply import the decorator and use as such::
         ...
 
 Assuming your alembic revision history looks like this::
+
     $> alembic history
 
     5aa2dfb6e6a8 -> 3830063c1b00 (head), my head revision
@@ -41,6 +42,6 @@ Options
 
 Options available:
 
-* ``--with-alembicattrib``: Enable the plugin
-* ``--alembic-ini=path/to/alembic.ini``: Assumed to be ``alembic.ini`` in the current dir by default
-* ``--alembic-echo={True,False}``: Turn sqlalchemy engine echo on or off
+--with-alembicattrib                  Enable the plugin
+--alembic-ini=path/to/alembic.ini     Assumed to be ``alembic.ini`` in the current dir by default
+--alembic-echo={True,False}           Turn sqlalchemy engine echo on or off
