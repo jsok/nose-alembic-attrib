@@ -2,6 +2,9 @@
 Nose plugin: Alembic Attrib
 ===========
 
+.. image:: https://badge.fury.io/py/nose-alembic-attrib.svg
+    :target: http://badge.fury.io/py/nose-alembic-attrib
+
 Requirements
 -------------
 
